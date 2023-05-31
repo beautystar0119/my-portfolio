@@ -9,7 +9,7 @@ const blogsData = [
     category: "Thoughts",
     featureImage: "images/blog/1.jpg",
     date: "13 March, 2021",
-    author: "Bako Doe",
+    author: "Thomas Cooper",
     slug: "the-truth-about-design",
   },
   {
@@ -18,7 +18,7 @@ const blogsData = [
     category: "Blog",
     featureImage: "images/blog/2.jpg",
     date: "13 March, 2021",
-    author: "Bako Doe",
+    author: "Thomas Cooper",
     slug: "the-ugly-truth-about-design",
   },
   {
@@ -27,7 +27,7 @@ const blogsData = [
     category: "Thoughts",
     featureImage: "images/blog/3.jpg",
     date: "13 March, 2021",
-    author: "Bako Doe",
+    author: "Thomas Cooper",
     slug: "how-to-become-better-with-ui-design",
   },
 ];

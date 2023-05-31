@@ -9,8 +9,8 @@ import {
 } from "react-icons/fa";
 
 const headerData = {
-  name: "Bako Doe",
-  designation: "Web Developer",
+  name: "Thomas Cooper",
+  designation: "Senior Full-Stack Developer",
   imageThumb: "/images/logo.png",
   social: {
     facebook: "https://facebook.com",
@@ -149,7 +149,7 @@ function Header({ toggleHeader, toggleHandler }) {
             </ul>
 
             <span className="copyright">
-              &copy; {new Date().getFullYear()} Bako Template
+              &copy; {new Date().getFullYear()} Thomas Template
             </span>
           </div>
         </div>

@@ -31,7 +31,7 @@ function BlogDetails(props) {
     window.scrollTo(0, 0);
   }, []);
 
-  const disqusShortname = "bako-1"; //found in your Disqus.com dashboard
+  const disqusShortname = "Thomas-1"; //found in your Disqus.com dashboard
   const disqusConfig = {
     url: "https://jthemes.net/themes/react/bako", //Homepage link of this site.
     identifier: blogId,

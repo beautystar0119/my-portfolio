@@ -4,12 +4,12 @@ import { Link as ScrollLink } from "react-scroll";
 const aboutData = {
   cvpath: "media/empty.pdf",
   image: "images/about.png",
-  name: "Bako Doe",
-  location: "London, UK",
-  birthday: "14 August, 1990",
+  name: "Thomas Cooper",
+  location: "Florida, United States",
+  birthday: "April 30",
   email: "hello@bako.com",
   aboutMe:
-    "I am Bako Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at wordpress.",
+    "I am Thomas Cooper, Senior Full-Stack Developer from Florida, United States. I have rich experience in web site design and building and customization, also I am good at wordpress.",
 };
 
 function About() {

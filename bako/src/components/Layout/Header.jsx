@@ -7,11 +7,12 @@ import {
   FaInstagram,
   FaYoutube,
   FaDribbble,
+  FaLinkedin,
 } from "react-icons/fa";
 
 const headerData = {
-  name: "Bako Doe",
-  designation: "Web Developer",
+  name: "Thomas Cooper",
+  designation: "Senior Full-Stack Developer",
   imageThumb: "/images/logo.png",
   social: {
     facebook: "https://facebook.com",
@@ -19,6 +20,7 @@ const headerData = {
     instagram: "https://www.instagram.com/",
     youtue: "https://www.youtube.com/",
     dribbble: "https://dribbble.com/",
+    linkedin: "https://www.linkedin.com/in/thomas-cooper-7a03bb237/",
   },
 };
 
@@ -224,6 +226,13 @@ function Header({ toggleHeader, toggleHandler }) {
                   </a>
                 </li>
               )}
+              {!headerData.social.linkedin ? null : (
+                <li className="list-inline-item">
+                  <a href={headerData.social.linkedin}>
+                    <FaLinkedin />
+                  </a>
+                </li>
+              )}
               {!headerData.social.instagram ? null : (
                 <li className="list-inline-item">
                   <a href={headerData.social.instagram}>
@@ -248,7 +257,7 @@ function Header({ toggleHeader, toggleHandler }) {
             </ul>
 
             <span className="copyright">
-              &copy; {new Date().getFullYear()} Bako Template
+              &copy; {new Date().getFullYear()} Thomas Template
             </span>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Demopage() {
@@ -13,7 +13,7 @@ function Demopage() {
       >
         <div className="container">
           <div className="demo-content">
-            <h1>Bako</h1>
+            <h1>Thomas</h1>
             <h4>React Portfolio Template</h4>
           </div>
         </div>
@@ -48,7 +48,7 @@ function Demopage() {
       >
         <div className="container">
           <div className="demo-content">
-            <p>&copy; {new Date().gtFullYear} Bako Template</p>
+            <p>&copy; {new Date().gtFullYear} Thomas Template</p>
           </div>
         </div>
         <div className="overlay"></div>

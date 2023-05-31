@@ -2,7 +2,7 @@ import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 
 const herosectionData = {
-  name: "Bako Doe",
+  name: "Thomas Cooper",
   aboutMe:
     "He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.",
 };

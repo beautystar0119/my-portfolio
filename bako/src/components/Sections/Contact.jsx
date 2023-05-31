@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const contactData = {
   phone: ["+44 1632 960428"],
   email: ["hello@bako.com"],
-  location: "West Palm Beach, 4669 Travis Street",
+  location: "St Petersburg, Florida, United States",
 };
 
 function Contact() {
